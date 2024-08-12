@@ -43,7 +43,3 @@ class Marks(Base):
     mark = Column(Integer)
     time = Column(DATETIME)
 
-# Create the tables
-Base.metadata.create_all(engine)
-Base.metadata.bind = engine
-
