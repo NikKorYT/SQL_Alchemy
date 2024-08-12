@@ -41,5 +41,5 @@ class Marks(Base):
     student_id = Column(Integer, ForeignKey("Students.student_id"))
     subject_id = Column(Integer, ForeignKey("Subjects.subject_id"))
     mark = Column(Integer)
-    time = Column(DATETIME)
+    date = Column(DATETIME)
 
